@@ -30,7 +30,7 @@ defmodule Weber.Mixfile do
     [
       {:cowboy, github: "extend/cowboy" },
       {:exjson, github: "guedes/exjson"},
-      {:plug, github: "elixir-lang/plug", ref: "b3d9327a066263b3a84875d1afb71fdb9bf2ac99"},
+      {:plug, github: "elixir-lang/plug", tag: "v0.2.0"},
       {:exlager, github: "whisper1/exlager"},
       {:weberContrib, github: "0xAX/weber-contrib"}
     ]
